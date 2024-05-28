@@ -9,5 +9,6 @@ public class FrequencyOfEachElementInArray {
 
         Map<String,List<String>> listOfString = stationeryList.stream().collect(Collectors.groupingBy(Function.identity()));
         System.out.println(listOfString.get("Pen"));
+        System.out.println(listOfString);
     }
 }

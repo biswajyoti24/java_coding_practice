@@ -1,7 +1,9 @@
 package com.example.demo1.streamApiExamples;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class streamapiexample1 {
@@ -22,6 +24,8 @@ public class streamapiexample1 {
 
         double totalPrice3 = productsList.stream()
                 .collect(Collectors.summingDouble(product->product.price));
+//                .map(p->p.price).reduce((sum,price)-> sum+price);
+
         System.out.println(totalPrice3);
 
 

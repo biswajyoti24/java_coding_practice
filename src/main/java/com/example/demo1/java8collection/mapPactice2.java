@@ -22,6 +22,15 @@ public class mapPactice2 {
 //            System.out.println(map.get(i));
         }
 
+        for(int a : map.keySet()){
+
+            System.out.println(map.get(a));
+        }
+
+        for(Map.Entry entry : map.entrySet()){
+            System.out.println(entry.getKey()+"--"+entry.getValue());
+        }
+
 
         //How to traverse map
 
