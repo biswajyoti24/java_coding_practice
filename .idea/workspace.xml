@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d315a869-8f85-4c84-a41f-ab0685f5822e" name="Changes" comment="" />
+    <list default="true" id="d315a869-8f85-4c84-a41f-ab0685f5822e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/ModelClass/EmployeeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckTheOccuranceOfEachCharacterInAGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/FindHighestSalaryOfEmployeeDeprtmentWise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,6 +45,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2erIa4OG51g4JWDb6p4jvbU7cYe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,13 +64,13 @@
       <recent name="D:\biswa_git\java_coding_practice\src\main\java\com\example\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergingOfTwoArray">
-    <configuration name="FindMaxValueMinValueFromList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo1.streamApiExamples.FindMaxValueMinValueFromList" />
+  <component name="RunManager" selected="Application.FindHighestSalaryOfEmployeeDeprtmentWise">
+    <configuration name="AllPossibleStringOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.codepractice.AllPossibleStringOfAString" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo1.streamApiExamples.*" />
+          <option name="PATTERN" value="com.example.demo1.codepractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergingOfTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo1.streamApiExamples.MergingOfTwoArray" />
+    <configuration name="CheckAnagramOfTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.codepractice.CheckAnagramOfTwoString" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo1.streamApiExamples.*" />
+          <option name="PATTERN" value="com.example.demo1.codepractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringJoinSuffixPrefixDelimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamApiExamples.StringJoinSuffixPrefixDelimeter" />
+    <configuration name="CheckTheOccuranceOfEachCharacterInAGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.codepractice.CheckTheOccuranceOfEachCharacterInAGivenString" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamApiExamples.*" />
+          <option name="PATTERN" value="com.example.demo1.codepractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfAllDigitOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo1.streamApiExamples.SumOfAllDigitOfANumber" />
+    <configuration name="FindHighestSalaryOfEmployeeDeprtmentWise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.codepractice.FindHighestSalaryOfEmployeeDeprtmentWise" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo1.streamApiExamples.*" />
+          <option name="PATTERN" value="com.example.demo1.codepractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.demo1.streamApiExamples.FrequencyOfEachCharacterInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo1.streamApiExamples.FrequencyOfEachCharacterInAString" />
+    <configuration name="streamapiexample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.streamApiExamples.streamapiexample1" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergingOfTwoArray" />
-        <item itemvalue="Application.FindMaxValueMinValueFromList" />
-        <item itemvalue="Application.SumOfAllDigitOfANumber" />
-        <item itemvalue="Application.com.example.demo1.streamApiExamples.FrequencyOfEachCharacterInAString" />
-        <item itemvalue="Application.StringJoinSuffixPrefixDelimeter" />
+        <item itemvalue="Application.FindHighestSalaryOfEmployeeDeprtmentWise" />
+        <item itemvalue="Application.CheckTheOccuranceOfEachCharacterInAGivenString" />
+        <item itemvalue="Application.CheckAnagramOfTwoString" />
+        <item itemvalue="Application.AllPossibleStringOfAString" />
+        <item itemvalue="Application.streamapiexample1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +170,31 @@
       <workItem from="1715936439270" duration="28000" />
       <workItem from="1716117452843" duration="7229000" />
       <workItem from="1716173799149" duration="3630000" />
+      <workItem from="1716612846738" duration="2411000" />
+      <workItem from="1716624338801" duration="860000" />
+      <workItem from="1716822763942" duration="698000" />
+      <workItem from="1716875961062" duration="3495000" />
+      <workItem from="1716906333544" duration="2639000" />
+      <workItem from="1717124493160" duration="3716000" />
+      <workItem from="1717131665259" duration="1552000" />
+      <workItem from="1717137387264" duration="5745000" />
     </task>
+    <task id="LOCAL-00001" summary="changed">
+      <created>1716909350813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716909350813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,6 +278,81 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/discussion/CheckArmstrongNumber.java</url>
           <line>16</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/AllPossibleStringOfAString.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo1/codepractice/CheckAnagramOfTwoString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
