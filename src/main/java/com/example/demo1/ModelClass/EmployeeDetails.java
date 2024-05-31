@@ -7,10 +7,11 @@ public class EmployeeDetails {
     private String department;
     public EmployeeDetails(Integer emid , String emname,Long emsalary,String dept){
 
-        this.department = dept;
+
         this.empsalary = emsalary;
         this.empname = emname;
         this.empid = emid;
+        this.department=dept;
 
     }
     public EmployeeDetails(){

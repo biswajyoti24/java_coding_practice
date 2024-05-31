@@ -26,5 +26,13 @@ public class FindHighestSalaryOfEmployeeDeprtmentWise {
 
         });
 
+        Map<String, Optional<EmployeeDetails>> secondhighestSalaries = employeeDetails.stream().collect(Collectors.groupingBy(EmployeeDetails::getDepartment,Collectors.collectingAndThen(Collectors.toList(),list-> list.stream().sorted(Comparator.comparing(EmployeeDetails::getEmpsalary).reversed()).skip(1).findFirst())));
+
+
+        secondhighestSalaries.forEach((department,employee) ->{
+
+            System.out.println("Department : "+ department +" Employee : "+employee.get().getEmpsalary());
+
+        });
     }
 }
