@@ -34,5 +34,22 @@ public class FindHighestSalaryOfEmployeeDeprtmentWise {
             System.out.println("Department : "+ department +" Employee : "+employee.get().getEmpsalary());
 
         });
+
+        List<EmployeeDetails> topThreeSlariedEmployee = employeeDetails.stream().sorted(Comparator.comparing(EmployeeDetails::getEmpsalary).reversed()).limit(3).collect(Collectors.toList());
+
+        for (EmployeeDetails empd : topThreeSlariedEmployee){
+            System.out.println(empd.getEmpname()+"->"+empd.getEmpsalary());
+        }
+
+        Long thirdsHighestSalary = employeeDetails.stream().map(emp-> emp.getEmpsalary() ).sorted(Comparator.reverseOrder()).skip(2).limit(1).collect(Collectors.toList()).get(0);
+
+        System.out.println(thirdsHighestSalary);
+
+        List<EmployeeDetails> employeeSalaryLessthanThirdHighestSalary = employeeDetails.stream().filter(x-> x.getEmpsalary()<thirdsHighestSalary).collect(Collectors.toList());
+
+        for (EmployeeDetails empd1 : employeeSalaryLessthanThirdHighestSalary){
+            System.out.println(empd1.getEmpname()+"->"+empd1.getEmpsalary());
+        }
+
     }
 }
